@@ -238,7 +238,7 @@ const Home = () => {
                                     }}
                                 />
                                 <CardContent sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1, padding: '1rem' }}>
-                                    <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#2f3a4b' }}>
+                                    <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#fff' }}>
                                         {movie.title}
                                     </Typography>
                                     <Typography variant="body2" sx={{ color: '#7a8b98', marginTop: '0.5rem' }}>
