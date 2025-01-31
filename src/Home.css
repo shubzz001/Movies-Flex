@@ -1,0 +1,152 @@
+  /* General Styles */
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    
+    header.header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    
+    footer.footer {
+      background-color: #333;
+      color: white;
+      padding: 1px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+
+    }
+    
+    /* Loading Spinner */
+    .loading {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 2rem;
+    }
+    
+    /* Movie Container */
+    .movie-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    /* Movie Card */
+    .movie-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .movie-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    }
+    
+    .movie-poster {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .movie-details {
+      padding: 1rem;
+    }
+    
+    .movie-details h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .movie-details p {
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+    
+    .trailer-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    
+    .trailer-link:hover {
+      background-color: #0056b3;
+    }
+    
+
+    .filter-container {
+      margin-top: 0.5rem;
+    }
+    
+    .genre-dropdown {
+      margin-left: 0.5rem;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+    
+    .genre-dropdown:focus {
+      border-color: #007bff;
+    }
+    
+
+    /* Home.css */
+  .watchlist-btn {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .watchlist-btn:hover {
+    background-color: #cc7a00;
+  }
+
+  /* header.css */
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .watchlist-icon {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+
+
+  

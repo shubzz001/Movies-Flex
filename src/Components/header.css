@@ -1,0 +1,83 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #1f2937, #374151);
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+
+  .navbar-logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fbbf24;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo h1::before {
+    content: "🎥";
+    margin-right: 0.5rem;
+  }
+
+  .navbar-dropdown {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .genre-dropdown {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    color: #374151;
+    background: #fff;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .genre-dropdown:focus,
+  .genre-dropdown:hover {
+    border-color: #fbbf24;
+    outline: none;
+    box-shadow: 0 0 5px #fbbf24;
+  }
+  
+
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-input {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    color: #374151;
+    background: #fff;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .search-input:focus,
+  .search-input:hover {
+    border-color: #fbbf24;
+    outline: none;
+    box-shadow: 0 0 5px #fbbf24;
+  }
+  
+  .search-input::placeholder {
+    color: #9ca3af;
+  }
+  
+
+  .navbar-dropdown,
+  .navbar-search {
+    margin: 0 1rem;
+  }
+  
